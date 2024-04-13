@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: starter
+  redis:
+    host: a0037bd02662040c08b93461ebc09465-1758147510.us-east-1.elb.amazonaws.com
+    port: 30302
+
+server:
+  port: 8080
+
+stream:
+  key: mystream
+
+ibm:
+  mq:
+    queueManager: queueManager
+    channel: CLOUD.APP.SVRCONN
+    connName: queuemanager-5e42.qm.us-south.mq.appdomain.cloud(31282)
+    user: app
+    password: zty5w5Ttoy3oIn2j-EKEgX-o1y8pfVyb1ywi8hd3TEJF
+
+queue:
+  mp4z:
+    in: DEV.QUEUE.1
+    out: DEV.QUEUE.2

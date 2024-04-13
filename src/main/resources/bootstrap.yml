@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: starter
+  cloud:
+    kubernetes:
+      config:
+        name: starter-cfm
